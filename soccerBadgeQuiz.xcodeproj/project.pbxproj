@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B225B7BD15F5715500D5F9BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225B7BC15F5715500D5F9BE /* UIKit.framework */; };
+		B225B7BF15F5715500D5F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225B7BE15F5715500D5F9BE /* Foundation.framework */; };
+		B225B7C115F5715500D5F9BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B225B7C015F5715500D5F9BE /* CoreGraphics.framework */; };
+		B225B7C715F5715500D5F9BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B225B7C515F5715500D5F9BE /* InfoPlist.strings */; };
+		B225B7C915F5715500D5F9BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B225B7C815F5715500D5F9BE /* main.m */; };
+		B225B7CD15F5715500D5F9BE /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B225B7CC15F5715500D5F9BE /* XYZAppDelegate.m */; };
+		B225B7D015F5715500D5F9BE /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B225B7CF15F5715500D5F9BE /* XYZViewController.m */; };
+		B225B7D315F5715500D5F9BE /* XYZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B225B7D115F5715500D5F9BE /* XYZViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B225B7B815F5715500D5F9BE /* soccerBadgeQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soccerBadgeQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B225B7BC15F5715500D5F9BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B225B7BE15F5715500D5F9BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B225B7C015F5715500D5F9BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B225B7C415F5715500D5F9BE /* soccerBadgeQuiz-Info.plist */ = {isa = PBXFileReference; path = "soccerBadgeQuiz-Info.plist"; sourceTree = "<group>"; };
+		B225B7C615F5715500D5F9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B225B7C815F5715500D5F9BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B225B7CA15F5715500D5F9BE /* soccerBadgeQuiz-Prefix.pch */ = {isa = PBXFileReference; path = "soccerBadgeQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		B225B7CB15F5715500D5F9BE /* XYZAppDelegate.h */ = {isa = PBXFileReference; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		B225B7CC15F5715500D5F9BE /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		B225B7CE15F5715500D5F9BE /* XYZViewController.h */ = {isa = PBXFileReference; path = XYZViewController.h; sourceTree = "<group>"; };
+		B225B7CF15F5715500D5F9BE /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		B225B7D215F5715500D5F9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYZViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B225B7B515F5715500D5F9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225B7BD15F5715500D5F9BE /* UIKit.framework in Frameworks */,
+				B225B7BF15F5715500D5F9BE /* Foundation.framework in Frameworks */,
+				B225B7C115F5715500D5F9BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B225B7AD15F5715500D5F9BE = {
+			isa = PBXGroup;
+			children = (
+				B225B7C215F5715500D5F9BE /* soccerBadgeQuiz */,
+				B225B7BB15F5715500D5F9BE /* Frameworks */,
+				B225B7B915F5715500D5F9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B225B7B915F5715500D5F9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B225B7B815F5715500D5F9BE /* soccerBadgeQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B225B7BB15F5715500D5F9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B225B7BC15F5715500D5F9BE /* UIKit.framework */,
+				B225B7BE15F5715500D5F9BE /* Foundation.framework */,
+				B225B7C015F5715500D5F9BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B225B7C215F5715500D5F9BE /* soccerBadgeQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				B225B7CB15F5715500D5F9BE /* XYZAppDelegate.h */,
+				B225B7CC15F5715500D5F9BE /* XYZAppDelegate.m */,
+				B225B7CE15F5715500D5F9BE /* XYZViewController.h */,
+				B225B7CF15F5715500D5F9BE /* XYZViewController.m */,
+				B225B7D115F5715500D5F9BE /* XYZViewController.xib */,
+				B225B7C315F5715500D5F9BE /* Supporting Files */,
+			);
+			path = soccerBadgeQuiz;
+			sourceTree = "<group>";
+		};
+		B225B7C315F5715500D5F9BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B225B7C415F5715500D5F9BE /* soccerBadgeQuiz-Info.plist */,
+				B225B7C515F5715500D5F9BE /* InfoPlist.strings */,
+				B225B7C815F5715500D5F9BE /* main.m */,
+				B225B7CA15F5715500D5F9BE /* soccerBadgeQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B225B7B715F5715500D5F9BE /* soccerBadgeQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225B7D615F5715500D5F9BE /* Build configuration list for PBXNativeTarget "soccerBadgeQuiz" */;
+			buildPhases = (
+				B225B7B415F5715500D5F9BE /* Sources */,
+				B225B7B515F5715500D5F9BE /* Frameworks */,
+				B225B7B615F5715500D5F9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soccerBadgeQuiz;
+			productName = soccerBadgeQuiz;
+			productReference = B225B7B815F5715500D5F9BE /* soccerBadgeQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B225B7AF15F5715500D5F9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASFM;
+			};
+			buildConfigurationList = B225B7B215F5715500D5F9BE /* Build configuration list for PBXProject "soccerBadgeQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B225B7AD15F5715500D5F9BE;
+			productRefGroup = B225B7B915F5715500D5F9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B225B7B715F5715500D5F9BE /* soccerBadgeQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B225B7B615F5715500D5F9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225B7C715F5715500D5F9BE /* InfoPlist.strings in Resources */,
+				B225B7D315F5715500D5F9BE /* XYZViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B225B7B415F5715500D5F9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B225B7C915F5715500D5F9BE /* main.m in Sources */,
+				B225B7CD15F5715500D5F9BE /* XYZAppDelegate.m in Sources */,
+				B225B7D015F5715500D5F9BE /* XYZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B225B7C515F5715500D5F9BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225B7C615F5715500D5F9BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B225B7D115F5715500D5F9BE /* XYZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B225B7D215F5715500D5F9BE /* en */,
+			);
+			name = XYZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B225B7D415F5715500D5F9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B225B7D515F5715500D5F9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B225B7D715F5715500D5F9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soccerBadgeQuiz/soccerBadgeQuiz-Prefix.pch";
+				INFOPLIST_FILE = "soccerBadgeQuiz/soccerBadgeQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B225B7D815F5715500D5F9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soccerBadgeQuiz/soccerBadgeQuiz-Prefix.pch";
+				INFOPLIST_FILE = "soccerBadgeQuiz/soccerBadgeQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B225B7B215F5715500D5F9BE /* Build configuration list for PBXProject "soccerBadgeQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225B7D415F5715500D5F9BE /* Debug */,
+				B225B7D515F5715500D5F9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B225B7D615F5715500D5F9BE /* Build configuration list for PBXNativeTarget "soccerBadgeQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225B7D715F5715500D5F9BE /* Debug */,
+				B225B7D815F5715500D5F9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B225B7AF15F5715500D5F9BE /* Project object */;
+}
