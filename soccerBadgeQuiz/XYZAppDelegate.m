@@ -7,13 +7,14 @@
 //
 
 #import "XYZAppDelegate.h"
-
 #import "XYZViewController.h"
 
 @implementation XYZAppDelegate
 
+
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -23,7 +24,13 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+    
+    [application setStatusBarHidden:NO];
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
