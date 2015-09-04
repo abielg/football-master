@@ -6,3 +6,4 @@ The app has Game Center integration, with achievements and a global leaderboard.
 
 Visit its app store page: https://itunes.apple.com/us/app/football-master/id651608590?mt=8
 
+![alt tag](https://raw.github.com/abielg/football-master/GitHubScreenshots/Screenshot1.png)
